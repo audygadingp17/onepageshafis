@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header */
+.main-header {
+    padding: 20px;
+    background-color: rgb(107, 102, 102);
+}
+
+.judul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+/* Main */
+main {
+    padding: 20px; 
+}
+
+/* Beranda */
+.main-beranda {
+    background-color: rgb(33, 33, 230);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.container h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.container p {
+    font-size: 16px;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Button */
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(240, 17, 17);
+    border: 1px solid rgb(240, 17, 17);
+}
+
+/* Tentang */
+.main-tentang {
+    display: flex;
+    flex-wrap: wrap;        /* biar responsive */
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.main-tentang h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-tentang img {
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: auto;
+}
+
+.main-tentang p {
+    flex: 1;
+    margin-top: 20px;
+    text-align: justify;
+    max-width: 600px;
+}
+
+.main-tentang ul {
+    margin: 20px 0 0 20px; /* list lebih rapi */
+    padding-left: 20px;
+}
+
+.main-tentang ul li {
+    text-align: justify;
+}
